@@ -5,11 +5,12 @@ import SingleRoom from './pages/SingleRoom';
 import Error from './pages/Error';
 import {Route,Switch} from 'react-router-dom';
 import './App.css';
-
+import NavBar from './components/NavBar';
 function App() {
   return (
 
     <>
+    <NavBar/>
     <Switch>
     hello from app
 <Route exact path='/' component={Home}/>
