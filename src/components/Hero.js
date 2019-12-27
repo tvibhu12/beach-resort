@@ -4,13 +4,11 @@ import React from 'react'
     return (
         <header className={hero} >
         {children}
-        
-            
         </header>
     )
 }
+export default Hero;
 
 Hero.defaultProps={
     hero:'defaultHero'
 };
-export default Hero;
