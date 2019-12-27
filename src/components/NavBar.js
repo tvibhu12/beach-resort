@@ -33,7 +33,7 @@ render() {
                     </Link>
                 </li>
                 <li>
-                    <Link to='/'>
+                    <Link to='/rooms'>
                         Rooms
                     </Link>
                 </li>

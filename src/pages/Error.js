@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Error from '../components/Hero'
+import Hero from '../components/Hero';
 
 const error = () => {
     return (
         <div>
-            error
+           <Hero/>
         </div>
     )
 }
